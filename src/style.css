@@ -1,12 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-:root{
-    --Dark-blue:#202733;
-    --Dark-Grayish-Blue: #313A48;
-    --Neon-green: #53FFAA;
-    --Graysh-blue:#4F5D74;
-    --Light-cyan: #CEE3E9;
+:root {
+  --Dark-blue: #202733;
+  --Dark-Grayish-Blue: #313a48;
+  --Neon-green: #53ffaa;
+  --Graysh-blue: #4f5d74;
+  --Light-cyan: #cee3e9;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--Dark-blue);
+}
+.container {
+  width: 540px;
+  height: 332px;
+  border-radius: 15px 0px 0px 0px;
+  background-color: var(--Dark-Grayish-Blue);
 }
