@@ -59,6 +59,7 @@ body {
 }
 .dice-symbol {
   /* text-align: center; */
+  cursor: pointer;
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -66,6 +67,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; 
+}
+.dice-symbol:hover{
+  box-shadow: 0px 0px 40px var(--Neon-green);
 }
 .dice-symbol i {
   display: flex;
