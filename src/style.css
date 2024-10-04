@@ -41,19 +41,9 @@ body {
   font-size: 28px;
   color: var(--Light-cyan);
 }
-.lines {
-  /* margin-top: 50%; */
-  width: 90%;
-  height: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin: 0 auto;
-}
-.line {
-  width: 196px;
-  height: 1px;
-  background-color: lightcyan;
+.divider{
+  margin-top: 5%;
+  text-align: center;
 }
 .dice-symbol {
   /* text-align: center; */
