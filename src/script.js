@@ -3,8 +3,8 @@ const textContainer = document.querySelector(".text");
 const diceSymbol = document.querySelector(".dice-symbol");
 function displayData(res) {
   const [id, advice] = [res.slip.id, res.slip.advice];
-  adviceNumber.textContent = id;
-  textContainer.textContent = advice;
+  adviceNumber.textContent = `#${id}`;
+  textContainer.textContent = `"${advice}"`;
 }
 async function fetchAdvice() {
   const res = fetch("https://api.adviceslip.com/advice")
