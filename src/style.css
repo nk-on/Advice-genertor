@@ -53,12 +53,10 @@ body {
   margin-left: 10%;
   width: 90%;
   height: 10%;
-  /* text-align: center; */
   background-image: url('/assets/pattern-divider-desktop.svg');
   background-repeat: no-repeat;
 }
 .dice-symbol {
-  /* text-align: center; */
   cursor: pointer;
   width: 64px;
   height: 64px;
@@ -75,10 +73,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 25%; */
   font-size: 24px;
-  /* border-radius: 50%;
-    background-color: var(--Neon-green); */
 }
 .quotes{
   font-weight: bold;
@@ -96,7 +91,6 @@ body {
     background-image: url('/assets/pattern-divider-mobile.svg');
   }
   .dice-symbol {
-    /* text-align: center; */
     border-radius: 50%;
     width: 64px;
     height: 64px;
