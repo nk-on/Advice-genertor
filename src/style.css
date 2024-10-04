@@ -20,8 +20,12 @@ body {
   font-family:"Manrope", sans-serif;
 }
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 30px;
-  width: min(100%, 540px);
+  width: min(90%, 540px);
   height: 332px;
   border-radius: 15px 0px 0px 0px;
   background-color: var(--Dark-Grayish-Blue);
@@ -42,8 +46,16 @@ body {
   color: var(--Light-cyan);
 }
 .divider{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   margin-top: 5%;
-  text-align: center;
+  margin-left: 10%;
+  width: 90%;
+  height: 10%;
+  /* text-align: center; */
+  background-image: url('/assets/pattern-divider-desktop.svg');
+  background-repeat: no-repeat;
 }
 .dice-symbol {
   /* text-align: center; */
@@ -51,11 +63,9 @@ body {
   height: 64px;
   border-radius: 50%;
   background-color: var(--Neon-green);
-  margin-left: 45%;
-  margin-top: 10%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 .dice-symbol i {
   display: flex;
@@ -70,4 +80,21 @@ body {
   font-weight: bold;
   font-size: 32px;
   color: var(--Light-cyan);
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    height: 70%;
+  }
+  .placeholder{
+    width: 50%;
+  }
+  .divider{
+    background-image: url('/assets/pattern-divider-mobile.svg');
+  }
+  .dice-symbol {
+    /* text-align: center; */
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+  }
 }
